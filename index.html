@@ -11,7 +11,11 @@
     <div class="background">
       <div class="container">
         <div class="box">
-          <form id="calculateForm" class="calculate-form">
+          <form
+            onsubmit="calculateMarks(event)"
+            id="calculateForm"
+            class="calculate-form"
+          >
             <input type="number" name="maths" placeholder="Maths" />
             <input type="number" name="English" placeholder="English" />
             <input type="number" name="sindhi" placeholder="Sindhi" />

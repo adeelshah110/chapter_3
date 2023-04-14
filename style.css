@@ -126,7 +126,7 @@ input:focus-visible {
     width: 100%;
   }
   .box {
-    width: 90%;
+    width: 70%;
   }
 
   .calculate-form {
@@ -135,6 +135,12 @@ input:focus-visible {
   }
   .calculate-form button {
     grid-column: 1/2;
+  }
+  .content h1 {
+    font-size: 5rem;
+  }
+  .content h2 {
+    font-size: 3.5rem;
   }
   input {
     max-width: 100%;
