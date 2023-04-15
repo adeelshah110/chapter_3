@@ -146,3 +146,8 @@ input:focus-visible {
     max-width: 100%;
   }
 }
+.results {
+  font-size: 1.6rem;
+  color: white;
+  padding: 2rem;
+}
